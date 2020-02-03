@@ -10,3 +10,7 @@ require './filters'
 # binding.pry
 
 pp @candidates
+  candidate = find(7)
+pp experienced?(candidate)
+pp qualified_candidates(@candidates)
+pp ordered_by_qualifications(@candidates)
